@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <style>
+    /* Estilos simples para melhorar a aparência */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    #carrinho {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Produtos</h1>
+  <ul id="produtos">
+    <li data-nome="Item 1" data-preco="20.00">Item 1 - R$ 20.00 <button class="adicionar">Adicionar</button></li>
+    <li data-nome="Item 2" data-preco="15.00">Item 2 - R$ 15.00 <button class="adicionar">Adicionar</button></li>
+    <li data-nome="Item 3" data-preco="30.00">Item 3 - R$ 30.00 <button class="adicionar">Adicionar</button></li>
+  </ul>
+
+  <h2>Carrinho</h2>
+  <div id="carrinho"></div>
+
+  <script src="carrinho.js"></script>
+</body>
+</html>

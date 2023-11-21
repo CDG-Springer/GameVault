@@ -1,0 +1,17 @@
+#container{
+    width: 80%;
+    padding: 100px 0 100px 0;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+input {
+    width: 20vw;
+    height: 60px;
+    max-width: 500px;
+    min-width: 250px;
+}
+
+section{
+    margin-top: 8%;
+}

@@ -1,0 +1,11 @@
+#container{
+    width: 1000px;
+    padding: 50px 0 50px 0;
+    max-width: 90vw;
+    min-width: 1000px;
+    height: auto;
+}
+
+section{
+    margin-top: 4%;
+}

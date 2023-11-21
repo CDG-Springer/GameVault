@@ -1,0 +1,247 @@
+/* CAROUSSEL PROMO */
+
+@media screen {
+
+    #caroussel{
+        margin: 3rem;
+        width: 1170px;
+        height: 450px;
+        overflow: hidden;
+        float: right;
+    }
+
+    .containerCaroussel{
+        display: flex;
+        gap: 10px;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+    }
+
+    #itemPromo{
+        object-fit: cover;
+        height: 450px;
+        width: 385px;
+        cursor: pointer;
+        justify-content: space-between;
+        background-color: #010101;
+        transition: opacity 0.2s;
+    }
+
+    #itemPromo:hover{
+        opacity: 0.3;
+    }
+
+    .itemHoverVIsible-container{
+        position: relative;
+    }
+
+    #bag-icon{
+        cursor: pointer;
+        font-size: 5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .itemHoverVisible {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .preco {
+        top: 65%;
+        left: 50%;
+        font-style: bold;
+        font-size: 3rem;
+        visibility: hidden;
+        transform: translate(-50%, -50%);
+        font-family: 'Vina Sans';
+        cursor: pointer;
+    }
+
+    .itemHoverVIsible-container:hover .itemHoverVisible{
+        visibility: visible;
+    }
+
+    .itemHoverVIsible-container:hover #itemPromo{
+        opacity: 0.3;
+    }
+
+    .botaoCaroussel {
+        font-size: 5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    #direita{
+        font-size: 3rem;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently */
+    }
+
+    #esquerda{
+        font-size: 3rem;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently */
+    }
+
+    .botaoEsquerda {
+        float: left;
+    }
+
+    .clear{
+        clear: both;
+    }
+    
+}
+
+/* CAROUSSEL JOGOS NORMAIS */
+
+@media screen {
+
+    #produto {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently */
+    }
+
+    #carousselJogosComuns{
+        margin: 3rem;
+        width: 1170px;
+        height: 350px;
+        overflow: hidden;
+        float: right;
+    }
+
+    .containerCarousselComuns{
+        display: flex;
+        gap: 10px;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+    }
+
+    #itemComum{
+        object-fit: cover;
+        height: 350px;
+        width: 285px;
+        cursor: pointer;
+        justify-content: space-between;
+        background-color: #010101;
+        transition: opacity 0.2s;
+    }
+
+    #itemComum:hover{
+        opacity: 0.3;
+    }
+
+    .itemHoverVIsible-container:hover #itemComum{
+        opacity: 0.3;
+    }
+
+    .itemHoverVIsible-container {
+        position: relative;
+    }
+
+    #itemHoverVIsible {
+        position: absolute; 
+        top: 50%; 
+        left: 50%;
+        font-size: 5rem;
+        visibility: hidden;
+        transform: translate(-50%, -50%);
+    }
+
+    #itemComum:hover ~ #itemHoverVIsible {
+        visibility: visible;
+    } 
+
+    #direitaComum{
+        font-size: 3rem;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently */
+    }
+
+    #esquerdaComum{
+        font-size: 3rem;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently */
+    }
+
+    .botaoEsquerda {
+        float: left;
+    }
+
+    .clear{
+        clear: both;
+    }
+    
+}
+
+/* CARRINHO */
+
+@media screen {
+
+    #carrinhoBotao{
+        cursor: pointer;
+    }
+
+    #carrinho-container{
+        max-width: 30rem;
+        min-width: 30rem;
+        height: 100vh;
+        position: absolute;
+        z-index: 99;
+        overflow: auto;
+        scrollbar-width: thin;
+        background-color: #121212;
+        transition: 0.3s;
+        right: -50%;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #carrinho-container p {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    #carrinho-container hr {
+        width: 88%;
+    }
+
+    #carrinho-container.posicao-direita {
+        right: 0;
+      }
+
+    #carrinho div{
+        /* border: 5px solid #282828; */
+        padding: 20px;
+    }
+
+    .lockScroll {
+        overflow-y: hidden;
+    }
+
+}
