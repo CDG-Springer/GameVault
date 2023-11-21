@@ -1,0 +1,82 @@
+<!-- PRIMEIRO JOGO PROMOÇÃO -->
+            <div class="jogo-promo promo-1 hidden" data-delay="300">
+                
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$199,99</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
+
+            <!-- SEGUNDO JOGO PROMOÇÃO -->
+            <div class="jogo-promo promo-2 hidden " data-delay="100">
+
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$349,00</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
+
+            <!-- TERCEIRO JOGO PROMOÇÃO -->
+            <div class="jogo-promo promo-3 hidden" data-delay="300">
+
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$225,00</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
+
+            <!-- ADICIONAIS -->
+
+            <div class="jogo-promo promo-3 hidden" data-delay="300">
+
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$225,00</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
+
+            <div class="jogo-promo promo-3 hidden" data-delay="300">
+
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$225,00</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
+
+            <div class="jogo-promo promo-3 hidden" data-delay="300">
+
+                <div class="preçopromo">
+                    <center>
+                        <span class="valor">R$225,00</span>
+                        <br>
+                        <i class="bi bi-basket2" class="comprar"></i>
+                    </center>
+                </div>
+
+                <div class="imgpromo"></div>
+            </div>
